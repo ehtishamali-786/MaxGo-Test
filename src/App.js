@@ -1,13 +1,11 @@
 
 import './App.css';
-import Card from './components/propertyCard'
-import PropertyData from './pages/propertyData'
+// import Card from './components/propertyCard'
+// import PropertyData from './pages/propertyData'
+import  Route  from './route';
 function App() {
   return (
-    <div className="App">
-      <PropertyData/>
-      <Card/>
-    </div>
+      <Route/>
   );
 }
 
